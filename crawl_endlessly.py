@@ -30,7 +30,7 @@ def enter_commenters_to_stack(subject, commenters_num_to_crawl=800):
 
 
 # taking 25 posts from instagram
-Settings.limit_amount = 1
+Settings.limit_amount = 25
 crawl_profile([famous_starter])
 enter_commenters_to_stack(famous_starter, commenters_num_to_crawl=800)
 
